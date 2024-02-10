@@ -15,15 +15,21 @@ const Footer = () => {
             <div className="font-bold text-[16px]"> Social Media</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">Github</span>
+              <span className="text-[15px] ml-[6px]">
+                <a href="#about_me">Github</a>
+              </span>
             </p>{" "}
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
+              <span className="text-[15px] ml-[6px]">
+                <a href="">Linkedin</a>
+              </span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxTwitterLogo />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
+              <span className="text-[15px] ml-[6px]">
+                <a href="">Twitter</a>
+              </span>
             </p>
           </div>
 
